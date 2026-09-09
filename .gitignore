@@ -1,0 +1,13 @@
+# Machine-local shell history — never share this.
+.zsh_history
+.bash_history
+*.zsh_history
+
+# Editor / OS noise
+*.swp
+*~
+.DS_Store
+
+# Local overrides, not tracked (see README)
+*.local
+zsh/*.local.zsh
