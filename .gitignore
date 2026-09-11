@@ -11,3 +11,6 @@
 # Local overrides, not tracked (see README)
 *.local
 zsh/*.local.zsh
+
+# znap compiles sourced files to bytecode next to them; regenerated on demand.
+*.zwc

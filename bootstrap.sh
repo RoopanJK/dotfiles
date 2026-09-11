@@ -27,6 +27,7 @@ CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 # entry would resolve into the repo. The script refuses that, but it is easier
 # not to write it.
 LINKS=(
+  "zsh/.zshenv:$HOME/.zshenv"
   "zsh/.zshrc:$HOME/.zshrc"
   "kitty/kitty.conf:$CONFIG_HOME/kitty/kitty.conf"
   "kitty/current-theme.conf:$CONFIG_HOME/kitty/current-theme.conf"
